@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        goldman: ['Goldman-Sans-Regular']
+        // sans: ['zwo', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

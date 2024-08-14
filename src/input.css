@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Goldman-Sans-Regular';
+    src:url('/fonts/Goldman-Sans-Regular.ttf.woff') format('woff'),
+        url('/fonts/Goldman-Sans-Regular.ttf.svg#Goldman-Sans-Regular') format('svg'),
+        url('/fonts/Goldman-Sans-Regular.ttf.eot'),
+        url('/fonts/Goldman-Sans-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
